@@ -10,22 +10,21 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
+    padding: 5%;
 }
-.topBanner{
+.top-banner{
     background-image: url('images/top-banner.png');
     background-repeat: no-repeat;
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
 }
 .half-width p{
     text-align: justify;
 }
 .half-width img{
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
 }
 .linkButton{
     text-decoration: none;
@@ -35,4 +34,22 @@ section{
     font-size: 18px;
     color: #fff;
     font-weight: 700;
+}
+.imgarea{
+    display: block;
+    text-align: right;
+    padding-top: 50px;
+}
+.imgarea2{
+    display: block;
+    text-align: left;
+    padding-top: 10px;
+}
+.dream-big{
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-big-content{
+    padding-right: 100px;
 }
