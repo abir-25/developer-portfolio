@@ -8,10 +8,13 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
     padding: 5%;
+}
+.flexible-container p{
+    text-align: justify;
 }
 .top-banner{
     background-image: url('images/top-banner.png');
@@ -20,13 +23,11 @@ section{
 .half-width{
     width: 50%;
 }
-.half-width p{
-    text-align: justify;
-}
+
 .half-width img{
     width: 80%;
 }
-.linkButton{
+.link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     padding:10px 40px;
@@ -52,4 +53,12 @@ section{
 }
 .dream-big-content{
     padding-right: 100px;
+}
+
+.left-experience h1, .right-experience h1{
+    font-size: 40px;
+}
+
+.left-experience, .right-experience{
+    padding: 30px;
 }
