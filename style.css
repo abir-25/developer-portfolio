@@ -52,6 +52,13 @@ h1{
     background-image: url('images/dream-bg.png');
     background-repeat: no-repeat;
     background-position: right;
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+.dream-big p{
+    text-align: justify;
 }
 .dream-big-content{
     padding-right: 150px;
@@ -75,7 +82,8 @@ h1{
 
 .left-experience, .right-experience{
     width: 40%;
-    box-shadow: rgba(0, 0, 0, 0.19) 10px 20px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    /*box-shadow: rgba(0, 0, 0, 0.19) 10px 20px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;*/
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     padding:5px 20px 20px 20px;
     border-radius: 5px;
     margin: 0px 50px;
@@ -97,6 +105,10 @@ footer p{
 @media screen and (max-width:600px) {
     .flexible-container{
         flex-direction: column;
+    }
+    .dream-big{
+        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .half-width{
         width: 85%;
