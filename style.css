@@ -58,10 +58,11 @@ h1{
 
 .left-experience h1, .right-experience h1{
     font-size: 35px;
+    margin-top: 0;
 }
 .left-experience{
     border-left: 5px solid;
-    border-image: linear-gradient(orange, tomato);    
+    border-image: linear-gradient(tomato, orange);    
     border-image-slice: 1;
 
 }
@@ -74,7 +75,7 @@ h1{
 .left-experience, .right-experience{
     width: 40%;
     box-shadow: rgba(0, 0, 0, 0.19) 10px 20px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    padding:20px;
+    padding:5px 20px 20px 20px;
     border-radius: 5px;
 }
 
@@ -83,9 +84,55 @@ h1{
     background-repeat: no-repeat;
     background-position: left;
 }
+.experience-section h1{
+    margin-left: 10px;
+}
 .experience-container{
     padding-top: 0;
 }
 footer p{
     text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    .flexible-container{
+        padding: 5%;
+        flex-direction: column; 
+    }
+
+    .half-width{
+        width: 100%
+    }
+    .half-width h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .link-button{
+        text-align: center;
+    }
+    .button-area{
+        width: 100%;
+        text-align: center;
+    }
+    .imgarea{
+        display: block;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .imgarea2{
+        text-align: center;
+    }
+    .experience-section{
+        text-align: center;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .left-experience, .right-experience{
+        width: 90%;
+        margin-bottom: 40px;
+        padding:20px;
+    }
+    .experience-container h1{
+        font-size: 30px;
+    }
 }
