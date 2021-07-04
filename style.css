@@ -89,62 +89,11 @@ h1{
 .exp-header{
     margin-left: 10px;
 }
-.experience-container{
-}
+
 footer p{
     text-align: center;
 }
 
 @media screen and (max-width:600px) {
-    .experience-container{
-        padding: 25px !important;
-        margin-bottom: 30px !important;
-    }
-    .flexible-container{
-        padding: 5%;
-        flex-direction: column; 
-    }
-
-    .half-width{
-        width: 100%
-    }
-    .half-width h1{
-        text-align: center;
-        font-size: 40px;
-    }
-    .link-button{
-        text-align: center;
-    }
-    .button-area{
-        width: 100%;
-        text-align: center;
-    }
-    .imgarea{
-        display: block;
-        text-align: center;
-        padding-top: 50px;
-    }
-    .imgarea2{
-        text-align: center;
-    }
-    .experience-section{
-        text-align: center;
-        padding: 0;
-    }
-    .left-experience, .right-experience{
-        width: 90%;
-        margin-bottom: 40px;
-        padding:20px;
-    }
-    .experience-container h1{
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width:500px) {
-    .left-experience, .right-experience{
-        width: 85%;
-        margin-bottom: 40px;
-        padding:20px;
-    }
+    
 }
