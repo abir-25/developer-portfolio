@@ -9,10 +9,10 @@ h1{
     color: orange;
 }
 .flexible-container{
+    width: 100%;
     display: flex;
     margin-bottom: 100px;
-    padding: 5%;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 .flexible-container p{
     text-align: justify;
@@ -23,6 +23,7 @@ h1{
 }
 .half-width{
     width: 50%;
+    padding: 40px;
 }
 
 .half-width img{
@@ -40,12 +41,12 @@ h1{
 .imgarea{
     display: block;
     text-align: right;
-    padding-top: 50px;
+    margin-top: 80px;
 }
 .imgarea2{
     display: block;
     text-align: left;
-    padding-top: 10px;
+    margin-top: 30px;
 }
 .dream-big{
     background-image: url('images/dream-bg.png');
@@ -53,7 +54,7 @@ h1{
     background-position: right;
 }
 .dream-big-content{
-    padding-right: 100px;
+    padding-right: 150px;
 }
 
 .left-experience h1, .right-experience h1{
@@ -77,6 +78,7 @@ h1{
     box-shadow: rgba(0, 0, 0, 0.19) 10px 20px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     padding:5px 20px 20px 20px;
     border-radius: 5px;
+    margin: 0px 50px;
 }
 
 .experience-section{
@@ -88,7 +90,6 @@ h1{
     margin-left: 10px;
 }
 .experience-container{
-    padding-top: 0;
 }
 footer p{
     text-align: center;
@@ -137,5 +138,13 @@ footer p{
     }
     .experience-container h1{
         font-size: 30px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .left-experience, .right-experience{
+        width: 85%;
+        margin-bottom: 40px;
+        padding:20px;
     }
 }
