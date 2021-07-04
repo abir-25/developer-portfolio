@@ -12,6 +12,7 @@ h1{
     display: flex;
     margin-bottom: 100px;
     padding: 5%;
+    justify-content: space-between; 
 }
 .flexible-container p{
     text-align: justify;
@@ -56,9 +57,35 @@ h1{
 }
 
 .left-experience h1, .right-experience h1{
-    font-size: 40px;
+    font-size: 35px;
+}
+.left-experience{
+    border-left: 5px solid;
+    border-image: linear-gradient(orange, tomato);    
+    border-image-slice: 1;
+
+}
+.right-experience{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
 
 .left-experience, .right-experience{
-    padding: 30px;
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.19) 10px 20px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding:20px;
+    border-radius: 5px;
+}
+
+.experience-section{
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-container{
+    padding-top: 0;
+}
+footer p{
+    text-align: center;
 }
