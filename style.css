@@ -95,5 +95,41 @@ footer p{
 }
 
 @media screen and (max-width:600px) {
-    
+    .flexible-container{
+        flex-direction: column;
+    }
+    .half-width{
+        width: 85%;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    .half-width img{
+        width: 85%;
+    }
+    .half-width h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .imgarea, .imgarea2{
+        text-align: center;
+    }
+    .dream-big-content h1{
+        margin-top: 0;
+    }
+    .left-experience {
+        margin-bottom: 50px;
+    }
+    .left-experience, .right-experience{
+        width: 80% !important;
+    }
+    .left-experience h1, .right-experience h1{
+        font-size: 30px;
+    }
+    .left-experience h3, .right-experience h3{
+        text-align: center;
+    }
+    .exp-header{
+        text-align: center;
+    }
+
 }
