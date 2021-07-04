@@ -97,6 +97,7 @@ footer p{
 @media screen and (max-width:600px) {
     .experience-container{
         padding: 25px !important;
+        margin-bottom: 30px !important;
     }
     .flexible-container{
         padding: 5%;
