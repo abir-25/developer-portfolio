@@ -95,6 +95,9 @@ footer p{
 }
 
 @media screen and (max-width:600px) {
+    .experience-container{
+        padding: 25px !important;
+    }
     .flexible-container{
         padding: 5%;
         flex-direction: column; 
@@ -125,7 +128,6 @@ footer p{
     .experience-section{
         text-align: center;
         padding: 0;
-        margin-bottom: 50px;
     }
     .left-experience, .right-experience{
         width: 90%;
